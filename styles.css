@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true");
+    
+}
+#sqone{
+    height: 400px;
+    width: 400px;
+  background-color:whitesmoke;
+  position: relative;
+  margin-top: 275px;
+  margin-left: 10px;  
+  text-align: center;
+
+  
+
+  
+}
+#sqtwo{
+    height: 400px;
+    width: 400px;
+    background-color:whitesmoke;
+    position: relative;
+    margin-top: 275px;
+    margin-left: 10px;  
+    text-align: center;
+    
+
+
+}
+#sqthree{
+    height: 400px;
+    width: 400px;
+    background-color:whitesmoke;
+    position: relative;
+    margin-top: 275px;
+    margin-left: 10px;  
+    text-align: center;
+    padding-left:10px ;
+}
+
+#sign{
+    height: 80px;
+    width: 270px;
+
+    background-color:whitesmoke;
+    position: relative;
+    margin-top: 280px;
+    padding-left:10px ;
+    margin-left: 10px;  
+    text-align: center;
+    
+}
+
+#smallbox{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.grid-container {
+    
+    display: grid;
+    grid-template-areas: 'myArea myArea ';
+    gap: 15px;
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.item1 {
+    grid-area: myArea;
+  }
+#lap{
+    height: 20px;
+    width: 20px;
+}
+#cart{
+    position: relative;
+    margin-left: 1450px;
+    margin-bottom: 50px;
+
+}
+#button{
+    background-color: orange;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 250px;
+}
+#laptop{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-right: 100px;
+    position: relative;
+    margin-top: 500px;
+    padding-left:10px ;
+    margin-left: 10px;  
+
+}
