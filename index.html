@@ -3,48 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Online shopping site in India : shop Online for mobiles,books,watches,etc </title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/logo.png?raw=true" alt="logo">
-        <img id="cart" src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/cart%20icon.png?raw=true" alt="cart">
-
+    <header id="header">
+        <img id="ama-logo"src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/logo.png?raw=true" alt="">
+        <img src="./assets/" alt="">
+        <div class="inline">
+            <p class="grey">Hello</p>
+            <p>Select your address</p>
+        </div>
+        <section class="float-left">
+            <select class="round" name="" id="">
+                <option  value="All">All</option>
+            </select>
+            
+            <input type="text">
+            <div class="yellow inline">
+                <img src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/search%20icon.png?raw=true" alt="">
+            </div>
+        </section>
+        
+        <section class="float-left inline">
+            <img src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/indian%20flag.png?raw=true" alt="">
+            <select class="arrow" name="lang" id="lang;"></select>
+        </section>
+        
+        <section class="float-left inline">
+            <p>Hello Sign in <br>Account & Lists</p>
+            <select class="arrow" name="" id=""></select>
+        </section>
+        <p id="return" class="inline">Returns <br>&Orders</p>
+        <img id="cart" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/cart%20icon.png?raw=true" alt="">
+        <p class="inline">Cart</p>
     </header>
-    <section id="smallbox">
+    <nav id="nav">
+        <div class="float">
+            <img  id="sandwitch"src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/ham%20burger%20icon.png?raw=true" alt="">
+            <p class="navItems">All</p>
+            <p class="navItems">Best seller</p>
+            <p class="navItems">Mobiles</p>
+            <p class="navItems">Mobiles</p>
+            <p class="navItems">Customer Service</p>
+            <p class="navItems">Todya's Deals</p>
+            <p class="navItems">Fashion</p>
+            <p class="navItems">Electronics</p>
+            <p class="navItems">Books</p>
+            <p class="navItems">Prime</p>
+            <select class="navItems arrow" name="" id="">
+            </select>
+            <p class="navItems">New Releases</p>
+            <p class="navItems">Home & Kitchen</p>
+            <p class="navItems">Amazon Pay</p>
+        </div>
+        <img id="lion" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/lion.png?raw=true" alt="">
+        <div  id="prime"class="navItems">
+            <p>prime day</p>
+            <img src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/amazon%20design.png?raw=true" alt="">
+        </div>
         
-        <div id="sqone" class="grid-container">
-            <h3 class="item1">Upgrade your home|Amazon<br>Brands & more</h3>
-            <div id="pic1" class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2017.png?raw=true" alt="pic1">Smart LED TV'S</div>
-            <div id="pic2" class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2018.png?raw=true" alt="pic2">Appliances</div>
-            <div id="pic3" class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2020.png?raw=true" alt="pic3">Furniture</div>
-            <div id="pic4" class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2019.png?raw=true" alt="pic4">Kitchen Products</div>
+        <img src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/right%20arrow.png?raw=true" alt="">
+    </nav>
+    <section id="content">
+        <div id="Photos">
+            <div class="con1 cont">
+                <p class="big">Upgrade your home | Amazon <br>Brands & more <br></p>
+                <!-- <div class="photo1"> -->
+                    <div class="p1">
+                        <div>
+                            <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2017.png?raw=trueg" alt="">
+                            <p class="grey">Smart LED TVs</p> 
+                        </div>
+                        <div>
+                            <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2018.png?raw=true" alt="">
+                            <p class="grey">Appliances</p>
+                        </div>
+                    </div>
+                    
+                    <div class="p1">
+                        <div>
+                            <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2020.png?raw=true" alt="">
+                            <p class="grey">Furniture</p>
+                        </div>
+                        
+                        <div>
+                            <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2019.png?raw=true" alt="">
+                            <p class="grey">Kitchen products</p>
+                        <!-- </div> -->
+                        </div>
+                    </div>
+                <p class="blue">shop now </p>
+            </div>
             
-        </div>
-        <div id="sqtwo" class="grid-container">
-            <h3 class="item1">Revamp your home in style</h3>
-            <div  class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2025.png?raw=true" alt="pic5">Bedsheets & more</div>
-            <div  class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2024.png?raw=true" alt="pic6">Home decorations</div>
-            <div  class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2022.png?raw=true" alt="pic7">Home storage</div>
-            <div  class="grid-item"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2021.png?raw=true" alt="pic8">Lighting Solutions</div>
-            
-        </div>
-        <div id="sqthree">
-            <h3>Up to 70% off |clearance store</h3>
-            <div id="lap"><img src="https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/image%2026.png?raw=true" alt="lap"></div>
-            
-        </div>
-        <div id="sign">
-          <h4>Sign in for your better experince</h4>
-          <button id="button">Sign in securely</button>
+            <div class="con1 cont">
+                <p class="big">Revamp your home in style</p>
+                
+               <div class="p1">
+                <div>
+                    <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2025.png?raw=true" alt="">
+                    <p class="grey">Bedsheet,curtian & <br>more</p>
+                </div>
+                <div>
+                    <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2024.png?raw=true" alt="">
+                    <p class="grey">Home decoration</p>
+                </div>
+               </div>
 
-          
-          
-        </div>
-       
-        
+                <div class="p1">
+                    <div>
+                        <img class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2022.png?raw=true" alt="">
+                        <p class="grey">Home storage</p>
+                    </div>
+    
+                    <div>
+                        <img  class="img1" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2021.png?raw=true" alt="">
+                        <p class="grey">Lighting solutions</p>
+                    </div>
+                </div>
 
+                <p class="blue">Expolre all</p>
+            </div>
+            <div id="con2" class="cont">
+                <p class="big">Up to 70% off | Clearance store</p>
+                <img class="bigger" src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2026.png?raw=true"    alt="">
+                <p class="blue">See more</p>
+            </div>
+            <div>
+                <div id="con3" class="cont">
+                    <p class="big">Sign in for your best <br>Experience</p>
+                    <section id="button-yellow"><p>Sign in securly </p></section>
+                </div>
+                <img class="bigger" id="img2"src="https://github.com/mranja/amazon-clone-boilerplate/blob/main/assets/image%2028.png?raw=true" alt="">
+            </div>
+        </div>
     </section>
 </body>
 </html>
